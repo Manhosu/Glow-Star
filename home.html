@@ -1,13 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glow Star - Home
-    
-    </title>
+    <title>Glow Star - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container header-container">
+            <nav class="nav-left">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="logo.png" alt="Glow Star Logo"> <!-- Altere 'logo.png' para o caminho da sua logo -->
+            </div>
+            <nav class="nav-right">
+                <!-- Adicione itens de navegação se necessário -->
+            </nav>
+        </div>
+    </header>
     
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo à Glow Star</h2>
+            <p>Encontre os melhores produtos para suas necessidades.</p>
+            <a href="#products" class="btn">Ver Produtos</a>
+        </div>
+    </section>
+    
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-slider">
+                <button class="slider-btn prev">&lt;</button>
+                <div class="product-list">
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 1">
+                        <h3>Produto 1</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$100,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 2">
+                        <h3>Produto 2</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$150,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 3">
+                        <h3>Produto 3</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$200,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 4">
+                        <h3>Produto 4</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$250,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 5">
+                        <h3>Produto 5</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$300,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 6">
+                        <h3>Produto 6</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$350,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 7">
+                        <h3>Produto 7</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$400,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/150" alt="Produto 8">
+                        <h3>Produto 8</h3>
+                        <p>Descrição do produto.</p>
+                        <p>R$450,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+                <button class="slider-btn next">&gt;</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Tudo sobre a loja da minha princesa linda maravilhosa e perfeita.</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco.</p>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Glow Star. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
